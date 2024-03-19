@@ -1,11 +1,5 @@
 # GM-MFA
 
-
-## Abstract
-
-Bird's eye view(BEV) segmentation map is a recent development in autonomous driving that provide effective environmental information, such as drivable areas and lane dividers. Most of the existing methods use surround view cameras and LiDAR as inputs for segmentation and the fusion between modalities is done using only simple splicing, which lacks exploiting the correlation and complementarity between modalities. Furthermore, the models are not very scalable to a wider variety of modalities.
-This paper presents GM-MFA(Group-mix attention Multimodal Feature Aggregator), an end-to-end learning framework that can adapt to multiple modal feature combinations for BEV segmentation. GM-MFA comprises the following components: (i) The camera has a dual-branch structure that strengthens the linkage between local and global features. (ii) Multi-head deformable cross-attention is applied as multimodal feature aggregators to aggregate image, LiDAR, and Radar feature maps in BEV for implicitly aligning multimodal BEV features. (iii) The Group-Mix attention is used to enrich the attention map feature space and enhance the correlation between features.
-The method completes training and validation on the unScenes dataset, which is 5 mIoU points higher than the baseline method. Additionally, feature heatmaps and ablation studies are provided to demonstrate the method's effectiveness.
 ## Results
 
 ### BEV Map Segmentation (on nuScenes validation)
