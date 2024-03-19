@@ -7,8 +7,8 @@
 |   Model   | Modality |  mIoU  | 
 |:---------:|:--------:|:------:|
 | BEVFusion |  C+L+R   | 0.5499 |
-|    MFA    |    C+L+R     | 57.09  |
-|  GM-MFA   |    C+L+R     | 48.56  |
+|    MFA    |    C+L+R     | 0.5762  |
+|  GM-MFA   |    C+L+R     | 0.5959  |
 
 ## Usage
 
